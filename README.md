@@ -1,8 +1,8 @@
 ## Introduction
 
-Confusion was created by the existence of the two protobuf repositories:
+As a beginner, I was confused with the existence of the two protobuf repositories:
 
-1. [https://github.com/golang/protobuf](https://github.com/golang/protobuf), containing the first major version
+1. [https://github.com/golang/protobuf](https://github.com/golang/protobuf) containing the first major version
 1. [https://github.com/protocolbuffers/protobuf-go](https://github.com/protocolbuffers/protobuf-go) containing the second major version
 
 To help beginners such as myself, this README serves as a guide to create a
