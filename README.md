@@ -29,3 +29,13 @@ Follow installation guide [here](https://grpc.io/docs/protoc-installation/)
 ## To compile .proto files for gRPC on Go
 
 `$ protoc --go_out=paths=source_relative,plugins=grpc:. playground/playground.proto`
+
+This commands generates the .pb.go code that your Go will reference to make gRPC calls
+
+## To run
+
+```
+$ go run server/main.go
+
+$ go run client/main.go
+```
